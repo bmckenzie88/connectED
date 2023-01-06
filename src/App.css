@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'proganda';
+    src: url(/public/Progandaeeducation-P5WB.ttf);
+}
+@font-face {
+    font-family: 'kglego';
+    src: url(/public/KgLegoHouse-BOP5.ttf);
+}
+@font-face {
+    font-family: 'school';
+    src: url(/public/SchoolEducationRegular-Vr3w.ttf);
+}
+
+main {
+    height: 100%;
+    padding-top: 85px;
+    padding-left: 5% !important;
+    padding-bottom: 10%!important;
+    margin-right: 0 !important;
+    /* background-color: white; */
+    /* background-color: rgba(252, 246, 231); */
+    background-color: rgba(247, 202, 79, 0.87);
+}
+
+
+.card-body {
+    padding-top: 2% !important;
+}
+
+.card-text {
+    margin-bottom: 0.5rem !important;
+}
+    /* body {
+      background-color: #FBFBFB;
+    } */
+    
+    @media (min-width: 1400px) {
+        main {
+            max-width:100% !important;
+        }
+    }
+    @media (min-width: 991.98px) {
+        main {
+            margin-left: 240px !important;
+        }
+    }
+    @media (max-width: 991.98px) {
+      .sidebar {
+        width: 100%;
+      }
+      main {
+        /* margin-left: 0 !important; */
+        max-width: 100% !important;
+      }
+    }
+    @media (max-width: 408px) {
+        #sidebarMenu {
+            padding-top: 95px !important;
+        }
+    }
+    .header-title {
+        font-family: 'Gloria Hallelujah', cursive;
+        text-shadow: -1px 1px 2px #000,
+              1px 1px 2px #000,
+              1px -1px 0 #000,
+              -1px -1px 0 #000;
+    }
+    .letter1 {
+        color: rgb(233, 45, 45);
+    }
+    .letter2 {
+        color: rgb(247, 165, 42);
+    }
+    .letter3 {
+        color: rgb(220, 188, 73);
+    }
+    .letter4 {
+        color: rgb(158, 195, 84);
+    }
+    .letter5 {
+        color: rgb(55, 112, 55);
+    }
+    .letter6 {
+        color: rgb(20, 56, 92);
+    }
+    .letter7 {
+        color: rgb(137, 135, 139);
+    }
+    .letter8 {
+        color: black;
+    }
+    .letter9 {
+        color: rgb(159, 225, 209);
+    }
+    .letter10 {
+        color: rgba(233, 45, 45, 0.696);
+    }
+    /* Sidebar */
+    #main-navbar {
+        background-image: linear-gradient(to right,white, rgb(96, 196, 232));
+
+    }
+    #sidebarMenu {
+        background-image: linear-gradient(rgb(225, 236, 244), rgb(96, 196, 232));
+    }
+
+    #sidebarMenu .list-group-item {
+        background:none !important;
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 58px 0 0; /* Height of navbar */
+      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+      width: 240px;
+      z-index: 600;
+    }
+    #search-form {
+      min-width: 225px;
+    }
+    .sidebar .active {
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    .sidebar-sticky {
+      position: relative;
+      top: 0;
+      height: calc(100vh - 48px);
+      padding-top: 0.5rem;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+    header p {
+        margin: 0 !important;
+    }
+
+    .profile-icon {
+        background: none!;
+    }
